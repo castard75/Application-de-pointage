@@ -53,50 +53,7 @@ const date = dateDestructurings(iso)
     
       
 
-// for(let i = 0; i < score.length;i++)
-// {
-//     console.log([i].length );
-// }
 
-
-        //   function idDoc () {
-           
-        //     if (score) {
-        //         let id;
-        //         score.forEach((element) => { 
-                    
-                  
-        //             id = element.id
-                
-        //         console.log(id)
-            
-        //     })
-
-        //     }
-           
-        //   }
-
-        //   idDoc()
-        
-          
-   
-
-        function you(){
-
-            for (let i = 0; i<score.length;i++){
-let a = [i];
-
-console.log(a);
-let tab = [5]
-
-
-
-
-
-            }
-        }        
-        you()
-        
         
         ///DISPLAY USERS
       
