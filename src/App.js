@@ -1,7 +1,7 @@
 
 
 import {BrowserRouter,Route,Routes} from "react-router-dom"
-// import Admin from "./components/Admin";
+import Admin from "./components/Admin";
 import Home from './components/Home';
 
 // Import the functions you need from the SDKs you need
@@ -35,7 +35,7 @@ function App() {
   <BrowserRouter>
 <Routes>
 <Route  path="/" element={<Home/>} />
-{/* <Route  path="/admin" element={<Admin/>} /> */}
+<Route  path="/admin" element={<Admin/>} />
 
 </Routes>
 </BrowserRouter> 

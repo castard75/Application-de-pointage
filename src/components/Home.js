@@ -4,7 +4,7 @@ import React from 'react';
 import { initializeApp } from "firebase/app";
 import{ getDoc, getFirestore,collection, getDocs,addDoc }from "firebase/firestore";
 import { useEffect, useState } from 'react';
-// import ScoreForm from './ScoreForm';
+import ScoreForm from './ScoreForm';
 import {timestamp,dateDestructurings,iso }from "../utils/Date"
 import { db } from '../config/db';
 
@@ -106,7 +106,7 @@ const date = dateDestructurings(iso)
     return (
         
  <> 
- {/* <ScoreForm dataUser={userData} scoreData={score}/> */}
+ <ScoreForm dataUser={userData} scoreData={score}/>
  
  </>
       
