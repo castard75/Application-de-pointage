@@ -80,7 +80,7 @@ const date = dateDestructurings(iso)
     //Requête vers la base de données pour récupéré les utilistateurs
      useEffect(() =>{
       
-      let users = [];
+      
         getDocs(utilisateurs).then((snapshot) => {
        
               
@@ -92,15 +92,15 @@ const date = dateDestructurings(iso)
            })
            
           
-          return users  = utilisateursTab
+          return  utilisateursTab
            
            
            
          
-             }).then(() => { setUserData(users)})},[])
+             }).then(() => { setUserData(utilisateursTab)})},[])
 
 
-
+console.log(userData);
 
 
     return (
